@@ -1,4 +1,4 @@
-import 'package:dars_5/presentation/pages/onboarding.dart';
+import 'package:dars_5/presentation/pages/stretching.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,10 +10,6 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Onboarding(),
-      debugShowCheckedModeBanner: false,
-      // theme: ThemeData.dark(),
-    );
+    return MaterialApp(home: Stretching(), debugShowCheckedModeBanner: false);
   }
 }
