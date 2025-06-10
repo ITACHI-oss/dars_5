@@ -1,5 +1,7 @@
 import 'package:dars_5/presentation/utils/app_images.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class MyBottomNavigationBar extends StatelessWidget {
   MyBottomNavigationBar({super.key});

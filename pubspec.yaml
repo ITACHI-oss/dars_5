@@ -9,6 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_svg: ^0.22.0
+  google_fonts: ^6.2.1
   svg_icon: ^0.0.1
 
 dev_dependencies:
