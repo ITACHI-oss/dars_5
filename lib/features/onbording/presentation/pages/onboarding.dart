@@ -1,4 +1,4 @@
-import 'package:dars_5/presentation/widgets/onboarding_widget.dart';
+import 'package:dars_5/features/onbording/presentation/widgets/onboarding_widget.dart';
 import 'package:flutter/material.dart';
 
 class Onboarding extends StatefulWidget {

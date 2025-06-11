@@ -8,7 +8,7 @@ class AppImages {
   static const look = "assets/svgs/look.svg";
   static const svgSplashLogo1 = "assets/svgs/svg_splash_logo1.svg";
   static const splash_text1 = "assets/svgs/splash_text1.svg";
-
+  
   static const home1 = "assets/svgs/home1.svg";
   static const home2 = "assets/svgs/home2.svg";
   static const t2 = "assets/svgs/t2.svg";

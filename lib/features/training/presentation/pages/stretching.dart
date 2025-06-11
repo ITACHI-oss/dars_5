@@ -1,4 +1,4 @@
-import 'package:dars_5/presentation/widgets/cart_widget.dart';
+import 'package:dars_5/features/training/presentation/widgets/cart_widget.dart';
 import 'package:flutter/material.dart';
 
 class Stretching extends StatelessWidget {

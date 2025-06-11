@@ -1,12 +1,21 @@
-import 'package:dars_5/presentation/utils/app_images.dart';
+import 'package:dars_5/core/utils/images.dart';
+import 'package:dars_5/features/home/presentation/pages/home_screen.dart';
+import 'package:dars_5/features/training/presentation/pages/stretching.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
+
 
 class MyBottomNavigationBar extends StatelessWidget {
   MyBottomNavigationBar({super.key});
   final ValueNotifier<int> _currentIndexNotifier = ValueNotifier<int>(0);
-  final List<Widget> _screens = const [];
+  final List<Widget> _screens = const [
+    HomeScreen(),
+    Stretching(),
+    HomeScreen(),
+    HomeScreen(),
+    HomeScreen(),
+  ];
   Color getIconColor(int index, int currentIndex) {
     if (currentIndex == index) {
       return Colors.black;

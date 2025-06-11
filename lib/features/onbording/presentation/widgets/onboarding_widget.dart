@@ -1,3 +1,4 @@
+import 'package:dars_5/features/spalsh/presentation/pages/Login_splash_screen.dart';
 import 'package:flutter/material.dart';
 
 class OnboardingWidget extends StatelessWidget {
@@ -124,9 +125,21 @@ class OnboardingWidget extends StatelessWidget {
                         ),
                         SizedBox(width: 60),
                         TextButton(
-                          onPressed: () {},
+                          onPressed: () {
+                            if (currentPage == totalPages - 1) {
+                              Navigator.pushReplacement(
+                                context,
+                                MaterialPageRoute(builder: (x) => Screen()),
+                              );
+                            } else {
+                              Navigator.pushReplacement(
+                                context,
+                                MaterialPageRoute(builder: (x) => Screen()),
+                              );
+                            }
+                          },
                           child: Text(
-                            "Skip",
+                            currentPage == totalPages - 1 ? "Start" : "Skip",
                             style: TextStyle(
                               color: Colors.white,
                               fontSize: 18,
